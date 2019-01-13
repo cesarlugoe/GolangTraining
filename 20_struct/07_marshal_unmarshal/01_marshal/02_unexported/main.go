@@ -6,7 +6,7 @@ import (
 )
 
 type person struct {
-	first string
+	first string // the difference is the capital letter in the key name
 	last  string
 	age   int
 }

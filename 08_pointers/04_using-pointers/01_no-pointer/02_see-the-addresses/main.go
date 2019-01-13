@@ -6,6 +6,7 @@ func zero(z int) {
 	fmt.Printf("%p\n", &z) // address in func zero
 	fmt.Println(&z)        // address in func zero
 	z = 0
+	fmt.Println(z)
 }
 
 func main() {

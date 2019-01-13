@@ -32,8 +32,10 @@ func main() {
 		person: person{
 			Name: "James Bond",
 			Age:  23,
+			// Greeting() method
 		},
 		LicenseToKill: true,
+		// Greeting() method
 	}
 	p1.Greeting()
 	p2.Greeting()
